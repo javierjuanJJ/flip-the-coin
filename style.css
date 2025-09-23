@@ -1,0 +1,92 @@
+/* Estilos globales */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* tipografía */
+    background: linear-gradient(135deg, #f3f4f6, #dbeafe);
+    /* fondo degradado */
+
+    /* color de texto */
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#title {
+    align-items: start;
+    justify-content: start;
+    color: #ffffff;
+    text-shadow: 3cap 3px 0px #000000;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #35383f;
+
+
+}
+
+#coin {
+    margin-top: 10px;
+}
+
+#shadow {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+}
+
+#result {
+    margin-top: 100px;
+}
+
+
+#subtitle {
+    font-size: 20px;
+    color: #1e293b;
+}
+
+#flipBtn {
+    margin-top: 100px;
+    background-color: #3b82f6;
+    width: 110px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /* azul */
+    color: white;
+    /* texto blanco */
+
+    /* espacio interno */
+    border: none;
+    /* sin borde */
+    border-radius: 8px;
+    /* esquinas redondeadas */
+    cursor: pointer;
+    /* cursor en mano */
+    font-size: 1rem;
+    font-weight: bold;
+
+    
+    /* sombra */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
+}
+
+/* Estilos de encabezado */
+h1 {
+    font-size: 2.5rem;
+    /* sombra del texto */
+    margin-bottom: 10px;
+}
+
+/* Estilos del párrafo */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+#flipBtn:hover {
+    background-color: #1d4ed8;
+    /* azul más oscuro */
+    transform: translateY(-2px);
+    /* efecto flotante */
+}
